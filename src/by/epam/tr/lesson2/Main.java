@@ -7,8 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		calcTask6();
-		//Check GIT
-		//Check Git again
+		
 	}
 	
 	public static void calcTask6(){
@@ -30,6 +29,18 @@ public class Main {
 		}
 		result = a * a - (b - c) * (b - c) + Math.log(b * b + 1);
 		System.out.println("Result = "+result);
+	}
+	
+	public static void calcTask7(double a, double b, double c){
+		if (a>b){
+			System.out.println("Sum of b and c = "+(b+c));
+		}
+		else if (a==b){
+			System.out.println("Конец");
+		}
+		else if (a<b){
+			System.out.println((a+b+c)+" Новый год!");
+		}
 	}
 
 }
