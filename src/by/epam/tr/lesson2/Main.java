@@ -6,8 +6,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		calcTask6();
-		
+		//calcTask6();
+		//calcTask7(5.0, 5.2, 8);
+		//calcTask8(5.0, 5.2, 8);
 	}
 	
 	public static void calcTask6(){
@@ -42,5 +43,18 @@ public class Main {
 			System.out.println((a+b+c)+" Новый год!");
 		}
 	}
+	
+	public static void calcTask8(double a, double b, double c){
+		if (a==b){
+			System.out.println("скоро Новый Год!");
+		}
+		else{
+			System.out.println("a+b+c = "+(a+b+c)+"\n"
+					+ "a^2 + b^2 = " + (a*a+b*b)+"\n"
+					+ "моя любимая футбольная команда"
+					);
+		}
+	}
+	
 
 }
