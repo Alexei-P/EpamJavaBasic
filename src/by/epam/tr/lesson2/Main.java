@@ -7,6 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		calcTask6();
+		//Check GIT
 	}
 	
 	public static void calcTask6(){
