@@ -8,6 +8,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		calcTask6();
 		//Check GIT
+		//Check Git again
 	}
 	
 	public static void calcTask6(){
