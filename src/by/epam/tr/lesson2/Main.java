@@ -56,5 +56,42 @@ public class Main {
 		}
 	}
 	
+	public static void calcTask9(){ // Correctly?
+		int intQuant=0;
+		int quantityOfDivBy3 = 0;
+		System.out.println("Enter quantity of integers: ");
+		
+		Scanner sc = new Scanner(System.in);
+		if (sc.hasNextInt()){
+			intQuant = sc.nextInt();
+		}
+		
+		System.out.println("Quantity of odd numbers = "+intQuant/2);
+		
+		for (int i=1; i<=intQuant; i++){
+			if (i%3==0){
+				quantityOfDivBy3++;
+			}
+		}
+		System.out.println("Quantity of divided by 3 = "+quantityOfDivBy3);
+		
+		if (intQuant>=3){
+			System.out.println("abs<3 = 1, 2, 3");
+		}
+		else if(intQuant==2){
+			System.out.println("abs<3 = 1, 2");
+		}
+		else if(intQuant==1){
+			System.out.println("abs<3 = 1");
+		}
+		else{
+			System.out.println("Quantity couldn't be less or equal to 0");
+		}
+					
+	}
+	
+	
+	
+	
 
 }
