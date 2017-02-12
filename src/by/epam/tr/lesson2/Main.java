@@ -12,7 +12,7 @@ public class Main {
 		//calcTask14(-4,3,5);
 		//calcTask15(2, 4, 0.1);
 		//calcTask16(6);
-		
+		//calcTask17(-3);
 	}
 	
 	public static void calcTask6(){
