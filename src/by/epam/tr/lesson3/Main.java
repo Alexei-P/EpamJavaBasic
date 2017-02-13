@@ -137,18 +137,7 @@ public class Main {
 		
 		
 	}
-	
-}
-=======
-package by.epam.tr.lesson3;
 
-public class Main {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//calcTask5(6);
-		//calcTask6(10);
-	}
 
 	public static void calcTask5(int matrixSize){
 		if (matrixSize%2==1){
