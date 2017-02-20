@@ -1,0 +1,23 @@
+Three things to keep in mind with delta:
+
+1. Delta tends to increase as you get closer to expiration for near or at-the-money options.
+2. Delta is not a constant, a fact related to gamma, our next risk measurement, which is a measure of the rate of change of delta given a move by the underlying.
+3. Delta is subject to change given changes in implied volatility.
+
+There are some additional points to keep in mind about gamma:
+
+1. Gamma is smallest for deep out-of-the-money and deep in-the money options.
+2. Gamma is highest when the option gets near the money
+3. Gamma is positive for long options and negative for short options (as seen above in Figure 5 with our example of a short call)
+
+Some additional points about theta to consider when trading:
+
+1. Theta can be very high for out-of-the-money options if they contain a lot of implied volatility.
+2. Theta is typically highest for at-the-money options
+3. Theta will increase sharply in the last few weeks of trading and can severely undermine a long option holder's position, especially if implied volatility is on the decline at the same time.
+
+Additional points to keep in mind regarding vega include the following:
+
+1. Vega can increase or decrease even without price changes of the underlying because implied volatility is the level of expected volatility.
+2. Vega can increase from quick moves of the underlying, especially if there is a big drop in the stock market, or if there is a sudden upward burst in a commodity like coffee after a reported frost in Brazil.
+3. Vega falls as the option gets closer to expiration.
