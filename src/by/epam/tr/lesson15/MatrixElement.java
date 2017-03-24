@@ -35,7 +35,7 @@ public class MatrixElement implements Runnable {
 		return processed;
 	}
 
-	public synchronized void setProcessed(boolean processed) {
+	public void setProcessed(boolean processed) {
 		this.processed = processed;
 	}
 
@@ -43,11 +43,11 @@ public class MatrixElement implements Runnable {
 		return result;
 	}
 
-	public synchronized void setResult(int result) {
+	public void setResult(int result) {
 		this.result = result;
 	}
 
-	public synchronized void calcElement() {
+	public void calcElement() {
 		int[] rA = this.rowsA.getRow(i);
 		int[] cB = this.columnsB.getRow(j);
 		this.setProcessed(true);
