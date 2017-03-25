@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<assortment xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<equipment>
+		<id>1</id>
+		<name>Rollers</name>
+		<cost>150.00</cost>
+		<price>10.00</price>
+	</equipment>
+	<equipment>
+		<id>2</id>
+		<name>Skateboard</name>
+		<cost>100.00</cost>
+		<price>8.00</price>
+	</equipment>
+	<equipment>
+		<id>3</id>
+		<name>Skies</name>
+		<cost>200.00</cost>
+		<price>15.00</price>
+	</equipment>
+	<equipment>
+		<id>4</id>
+		<name>JumpRope</name>
+		<cost>10.00</cost>
+		<price>1.00</price>
+	</equipment>
+</assortment>
